@@ -23,3 +23,13 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(159, 159, 233);
+}
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 238, 40);
+}

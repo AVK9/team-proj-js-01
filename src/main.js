@@ -241,14 +241,14 @@ function onBookSwitch(e) {
 };
 //////////////////////////////////////////////////////////////
 // localStorage 
-const STORAGE_KEY = 'feedback-form-state';
-const btnAdd = document.getElementsByClassName('btnAddtoCard');
-const btnDel = document.getElementsByClassName('btnRemoveCard');
- btnAdd.addEventListener('click', onRemShList);
-function onRemShList() {
-        btnDel.classList.remove('hidden');
-    // console.log(refs.btnRemoveShList);
-    };
+// const STORAGE_KEY = 'feedback-form-state';
+// const btnAdd = document.getElementsByClassName('btnAddtoCard');
+// const btnDel = document.getElementsByClassName('btnRemoveCard');
+//  btnAdd.addEventListener('click', onRemShList);
+// function onRemShList() {
+//         btnDel.classList.remove('hidden');
+//     // console.log(refs.btnRemoveShList);
+//     };
 
 
 

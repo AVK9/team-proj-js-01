@@ -161,7 +161,6 @@ const infoBuyLinks = respArr[0].buy_links.map(({name, url }) =>
     refs.bookPage.innerHTML = pageMarkupBook;
 //    refs.bookPage.insertAdjacentHTML('beforeend', pageMarkupBook);
 }
-
 //////////////////////////////////////////////////////////////
 // ---->>>>>>   Популярні книги, що належать до усіх категорій  <<<<<<-----// 
 async function allBooksBackend() {

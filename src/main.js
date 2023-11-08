@@ -251,8 +251,8 @@ function onBookSwitch(e) {
 
 
 
-// refs.bookPage.addEventListener('click', onClickBookInfo);
-// function onClickBookInfo(e) { 
+refs.bookPage.addEventListener('click', onClickBookInfo);
+function onClickBookInfo(e) { 
    
 
 
@@ -260,24 +260,24 @@ function onBookSwitch(e) {
 
 
     
-    // const btnAddtoCard = e.target.closest(".btnAddtoCard")
-    // const btnRemoveCard = e.target.closest(".btnRemoveCard")
-    // const btnCloseBookPage = e.target.closest(".btnCloseInfoBook")
-    // if (btnAddtoCard) {
-    //     console.log('btnAddtoCard');
-    //     console.log(refs.btnRemoveShList);
-    //     // refs.btnRemoveShList.classList.remove('hidden');
-    //     //  refs.btnAddtoCard.classList.add('hidden')
+    const btnAddtoCard = e.target.closest(".btnAddtoCard")
+    const btnRemoveCard = e.target.closest(".btnRemoveCard")
+    const btnCloseBookPage = e.target.closest(".btnCloseInfoBook")
+    if (btnAddtoCard) {
+        console.log('btnAddtoCard');
+        console.log(refs.btnRemoveShList);
+        // refs.btnRemoveShList.classList.remove('hidden');
+        //  refs.btnAddtoCard.classList.add('hidden')
 
-    // } if (btnRemoveCard) {
-    //     // refs.btnAddtoCard.classList.remove('hidden')
-    //     // refs.btnRemoveCard.classList.add('hidden')
-    // console.log('btnRemoveCard');
-    // } if (btnCloseBookPage) {
-    //    refs.bookPage.classList.add('hidden');
-    //  }return
-
-
+    } if (btnRemoveCard) {
+        // refs.btnAddtoCard.classList.remove('hidden')
+        // refs.btnRemoveCard.classList.add('hidden')
+    console.log('btnRemoveCard');
+    } if (btnCloseBookPage) {
+       refs.bookPage.classList.add('hidden');
+     }return
 
 
-// };
+
+
+};
